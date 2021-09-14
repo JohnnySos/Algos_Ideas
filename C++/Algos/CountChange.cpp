@@ -49,11 +49,11 @@ then adding said number of currencies to a sum total. Will be adding solution wi
 // int main()
 // {
 //     int dollar, quarters, dimes, nickels, total_cents;
-//     cout << "Enter the number of quarters:\n";
+//     cout << "Enter the number of quarters: ";
 //     cin >> quarters;
-//     cout << "Enter the number of dimes:\n";
+//     cout << "Enter the number of dimes: ";
 //     cin >> dimes;
-//     cout << "Enter the number of nickels:\n";
+//     cout << "Enter the number of nickels: ";
 //     cin >> nickels;
 
 //     total_cents = (quarters * 25) + (dimes * 10) + (nickels * 5);
