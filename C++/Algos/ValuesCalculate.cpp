@@ -1,5 +1,5 @@
 #include <iostream>
-// #include <cmath>    was going to include square root and use sqrt
+// #include <cmath>    ****Was going to include square root and use sqrt, not needed for power
 using namespace std;
 
 int main(){
@@ -13,7 +13,7 @@ int main(){
     // }
     cout << "Please input the second number you wish to use for this calculation :";
     cin >> secondNumber;
-        // Begining of equation formulas; will later seprate by functions to be more organized
+// **** Begining of equation formulas; will later seprate by functions to be more organized
         addition = (firstNumber + secondNumber);
         subtraction = (firstNumber - secondNumber);
         multiplication = (firstNumber * secondNumber);
@@ -59,5 +59,7 @@ return 0;
 /* NOTES
 Tried doing it manually but cannot add to function inside a fucntion to be called upon
 
-Also seems to be causing a main recursive error recalling the function main() on Ln 39, and ignoring the if and else statements, so for now it will be grayed out as notes until I can figure out this issue, so it will be grayed out within the equation for now. Other then that the function works as described.
+Also seems to be causing a main recursive error recalling the function main() on Ln 39, and ignoring the if and else statements, 
+so for now it will be grayed out as notes until I can figure out this issue, so it will be grayed out within the equation for now. 
+Other then that the function works as described.
 */
