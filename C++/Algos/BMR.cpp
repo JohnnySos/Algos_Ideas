@@ -1,5 +1,5 @@
-/*  ***NOTES***  I will be adding extra validations for yes or no responses and for correcting Gender validation within each one to repeat another calculation....but for now it will just exit out after being done*/
-
+/*  ***NOTES***  I will be adding extra validations for yes or no responses and for correcting Gender validation within each one to repeat another calculation....
+but for now it will just exit out after being done*/
 #include <iostream>
 using namespace std;
 
@@ -39,8 +39,6 @@ int Gender(char gender, int height, int weight, int age){
 
         default:
             cout<<"I understand you may not identify as the genders listed but for this exercise, please choose one.\nFor now you will be exited, have a nice day =) "<<endl;
-            // cin>> gender;
-            // return Gender(gender, weight, height , age);
             return 0;
             break;
     }    
@@ -61,29 +59,6 @@ int main(){
     cin>> gender;
     Gender(gender, weight, height, age);
 
-    // cout<<endl;
-    // cout<<endl;
-    // cout<<"If you would like to go again type in Y when prompted, if not type N...DO NOT TYPE any other letter, or you will see =( "<<endl;
-    // cout<<"Please enter your response: ";
-    // cin>> response;
-
-    // switch(response){
-    //     case 'Y':
-    //     cout<<endl;
-    //         cout<< "Heey you wanna go again? Sounds like fun lets do it! "<< endl;
-    //     cout<<endl;
-    //         return main();
-    //         break;
-
-    //     case 'N':
-    //     cout<<endl;
-    //         cout<<"Sad to see you leave =( come back soon!" << endl;
-    //     cout<<endl;
-    //         break;
-
+    
 return 0;
 }
-
-
-
-
