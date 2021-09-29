@@ -1,4 +1,6 @@
-/* ***NOTES***.....I will add validation in later for additional usability; However I noticed using switch does not give me the same recursion error as using if and else statements and allows me to call main within the function, so for now it will be completed like this with a fun validation easter egg...please dont be mad at my humor =).*/
+/* ***NOTES***.....I will add validation in later for additional usability; However I noticed using switch does not give me the same recursion error as using 
+if and else statements and allows me to call main within the function, so for now it will be completed like this with a fun validation easter egg...please dont 
+be mad at my humor =).*/
 #include <iostream>
 using namespace std;
 
