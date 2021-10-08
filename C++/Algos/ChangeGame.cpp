@@ -1,3 +1,4 @@
+// Decided to add ASNI Color code to differentiate the output a bit for fun...as always watch out for the easter eggs =)
 #define CYN "\x1B[0;36m"
 #define RED "\x1B[0;31m"
 #define BHRED "\x1B[1;91;107m"
