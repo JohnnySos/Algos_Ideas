@@ -1,4 +1,5 @@
-// Decided to add ASNI Color code to differentiate the output a bit for fun...as always watch out for the easter eggs =)
+/* Decided to add ASNI Color code to differentiate the output a bit for fun...as always watch out for the easter eggs =); Also will be adding StarWars Telnet for 
+favorite movie at a later time*/
 #define CYN "\x1B[0;36m"
 #define RED "\x1B[0;31m"
 #define BHRED "\x1B[1;91;107m"
