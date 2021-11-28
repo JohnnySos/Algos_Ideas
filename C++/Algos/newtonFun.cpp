@@ -9,7 +9,6 @@ using namespace std;
 
 double fallingDistance(){
     const double gravity = 9.8;
-    double seconds;
     int distance, colWidth=15;;
 
     cout<<"\n\nThis is automatic and will iterate 1 - 10 seconds\nand how many meters it travels "<<endl;
